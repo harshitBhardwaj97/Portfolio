@@ -1,0 +1,25 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-bgPrimaryDark;
+    @apply font-ubuntu;
+  }
+
+  .menu li {
+    @apply hover:font-bold hover:scale-105 ease-in duration-100 cursor-pointer m-1 hover:bg-white/80 hover:text-bgPrimaryDark hover:rounded-md hover:shadow-pink-500 hover:shadow-md hover:p-2 hover:m-3;
+  }
+
+  .mark {
+    @apply text-pink-500 hover:border-b-[0.5px] hover:border-b-pink-500
+    font-bold ease-in-out duration-100 cursor-pointer;
+  }
+}
