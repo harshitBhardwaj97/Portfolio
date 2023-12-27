@@ -138,8 +138,8 @@ export const certifications: certificate[] = [
     name: "Full Stack Open",
     url: "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/304461dafbcc0e0685b0145b9a72bcd9",
     description:
-      "From here I leart React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This course gave me good confidence in modern JavaScript-based web development.",
-    publisher: "University of Helensiki",
+      "From here I learnt React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go! This course gave me good confidence in modern JavaScript-based web development.",
+    publisher: "University of Helsinki",
     imgSrc: "./certificate-fullstack.png",
     alt: "Full Stack Open",
   },
@@ -148,7 +148,7 @@ export const certifications: certificate[] = [
     url: "https://studies.cs.helsinki.fi/stats/api/certificate/fs-typescript/en/c97b6506ca938c9f8538b8d915ba89c6",
     description:
       "This part is all about TypeScript: an open-source typed superset of JavaScript developed by Microsoft that compiles to plain JavaScript.",
-    publisher: "University of Helensiki",
+    publisher: "University of Helsinki",
     imgSrc: "./certificate-typescript.png",
     alt: "Full Stack Open (TypeScript)",
   },

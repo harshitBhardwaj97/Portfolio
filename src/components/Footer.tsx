@@ -24,7 +24,7 @@ const Footer = () => {
               target="_blank"
               title="Connect with me on Linkedin !"
             >
-              <FaLinkedin size={30} />
+              <FaLinkedin className="text-xl md:text-3xl" />
             </a>
             <a
               className="text-[#f4f6fc] hover:text-pink-500 hover:scale-110 hover:shadow-white ease-in-out duration-200"
@@ -32,7 +32,7 @@ const Footer = () => {
               target="_blank"
               title="Checkout my work on Github !"
             >
-              <FaGithub size={30} />
+              <FaGithub className="text-xl md:text-3xl" />
             </a>
             <a
               className="text-[#f4f6fc] hover:text-pink-500 hover:scale-110 hover:shadow-white ease-in-out duration-200"
@@ -40,7 +40,7 @@ const Footer = () => {
               target="_blank"
               title="Drop me an Email !"
             >
-              <HiOutlineMail size={30} />
+              <HiOutlineMail className="text-xl md:text-3xl" />
             </a>
             <a
               className="text-[#f4f6fc] hover:text-pink-500 hover:scale-110 hover:shadow-white ease-in-out duration-200"
@@ -48,7 +48,7 @@ const Footer = () => {
               download={`Harshit_Resume`}
               title="Download my Resume !"
             >
-              <BsFillPersonLinesFill size={30} />
+              <BsFillPersonLinesFill className="text-xl md:text-3xl" />
             </a>
           </div>
         </div>
