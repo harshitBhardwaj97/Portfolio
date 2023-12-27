@@ -67,7 +67,7 @@ const Contact = () => {
             Get in touch through this form, or directly via{" "}
             <a
               href="mailto:harshitbhardwaj97@gmail.com"
-              className="duration-150 ease-in-out text-white/80 hover:scale-110 hover:text-pink-500"
+              className="duration-150 ease-in-out text-white/80 hover:scale-110 hover:text-pink-500 hover:border-b-[1px] hover:border-b-white"
             >
               email
             </a>
