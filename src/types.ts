@@ -13,4 +13,5 @@ export type certificate = {
   url: string;
   description: string;
   publisher: string;
+  certificateDetails?: string;
 };
