@@ -163,6 +163,90 @@ export const certifications: certificate[] = [
     alt: "Full Stack Open (TypeScript)",
   },
   {
+    name: "CI/CD",
+    url: "https://studies.cs.helsinki.fi/stats/api/certificate/fs-cicd/en/483f91b63be8b6a23817505eda09116c",
+    description:
+      "In this part, I gained an understanding of why we should use a CI/CD system, and how to get started with GitHub Actions, which is available to all GitHub users by default.",
+    publisher: "University of Helsinki",
+    certificateDetails: "https://fullstackopen.com/en/part11",
+    imgSrc: "./certificate-cicd.png",
+    alt: "CI/CD",
+  },
+  {
+    name: "DevOps Professional",
+    url: "https://www.linkedin.com/learning/certificates/593af8ba4489bb8eb89af6d84cb1c81c11280013ac2c273c3995774b28f62821",
+    description:
+      "In this learning path, I solidified my concepts about DevOps, CI/CD, Infrastructure as Code and other related practices.",
+    publisher: "LinkedIn and PagerDuty",
+    certificateDetails:
+      "https://www.linkedin.com/learning/paths/devops-professional-certificate-by-pagerduty-and-linkedin",
+    imgSrc: "./DevOps Professional Certificate by PagerDuty and LinkedIn.jpg",
+    alt: "DevOps Professional Certificate by PagerDuty and LinkedIn",
+  },
+  {
+    name: "Programming with Python",
+    url: "https://www.linkedin.com/learning/certificates/35863d21334ed923259fd064080646943484c0d9a2ffc2776c1d9803c672f954",
+    description: "Here I solidified my programming concepts with Python.",
+    publisher: "LinkedIn and OpenEDG Python Institute",
+    certificateDetails:
+      "https://www.linkedin.com/learning/paths/openedg-python-institute-programming-with-python-professional-certificate",
+    imgSrc:
+      "./OpenEDG Python Institute Programming with Python Professional Certificate.jpg",
+    alt: "OpenEDG Python Institute Programming with Python Professional Certificate",
+  },
+  {
+    name: "Java 8 for Professionals",
+    url: "https://www.linkedin.com/learning/certificates/081d02ef6656ab24ddb160a98c2de0fd27adf07c1ee3f854c37b056e9d90baf6",
+    description:
+      "Here I solidified my learning about many useful features, that can change the way code is written in and beyond Java 8.",
+    publisher: "LinkedIn",
+    certificateDetails:
+      "https://www.linkedin.com/learning/java-8-for-professionals",
+    imgSrc: "./Java 8 for Professionals.jpg",
+    alt: "Java 8 for Professionals",
+  },
+  {
+    name: "Postman Essential Training",
+    url: "https://www.linkedin.com/learning/certificates/0ba7802d34fc4f03c75d3708386f126f771a79a8f6e01fb02d353fe6b8372d35",
+    description:
+      "Here I solidified my learning about Postman and API testing in general.",
+    publisher: "LinkedIn",
+    certificateDetails:
+      "https://www.linkedin.com/learning/postman-essential-training-21969591",
+    imgSrc: "./Postman Essential Training.jpg",
+    alt: "Postman Essential Training",
+  },
+  {
+    name: "Agile Testing",
+    url: "https://www.linkedin.com/learning/certificates/a440707d40196065e224f99070eaa8f24db03edff2e807a04ee7d780e0152c04",
+    description: "Here I solidified concepts about Agile Testing.",
+    publisher: "LinkedIn",
+    certificateDetails: "https://www.linkedin.com/learning/agile-testing-2",
+    imgSrc: "./Agile Testing.jpg",
+    alt: "Agile Testing",
+  },
+  {
+    name: "Backend Development and APIs",
+    url: "https://www.freecodecamp.org/certification/fcc851759bf-d56c-457a-bc72-d447d3ec46b3/back-end-development-and-apis",
+    description:
+      "Here I learnt how to write back end apps with Node.js, npm and Express Framework.",
+    publisher: "freeCodeCamp",
+    certificateDetails:
+      "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+    imgSrc: "./backend-api-fcc.jpg",
+    alt: "FreeCodeCamp Backend Development and API",
+  },
+  {
+    name: "CompTIA Security +",
+    url: "https://www.credly.com/badges/9b5a1952-6fb8-4ee3-921e-90946dad898c/public_url",
+    description:
+      "CompTIA Security+ is a global certification that validates the baseline skills necessary to perform core security functions and pursue an IT security career.",
+    publisher: "CompTIA",
+    certificateDetails: "https://www.comptia.org/certifications/security",
+    imgSrc: "./CompTIA Security+ certificate.jpg",
+    alt: "CompTIA Security+",
+  },
+  {
     name: "React with TypeScript",
     url: "https://res.cloudinary.com/total-typescript/image/upload/v1704125346/certificate/3527a1a3-9218-4f6f-8313-2ffab9bc1287/react-with-typescript.png",
     description:
@@ -203,26 +287,5 @@ export const certifications: certificate[] = [
       "https://www.totaltypescript.com/tutorials/beginners-typescript",
     imgSrc: "./ts_certificate_totalts.png",
     alt: "Typescript for Beginners",
-  },
-  {
-    name: "Backend Development and APIs",
-    url: "https://www.freecodecamp.org/certification/fcc851759bf-d56c-457a-bc72-d447d3ec46b3/back-end-development-and-apis",
-    description:
-      "Here I learnt how to write back end apps with Node.js, npm and Express Framework.",
-    publisher: "freeCodeCamp",
-    certificateDetails:
-      "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
-    imgSrc: "./backend-api-fcc.jpg",
-    alt: "FreeCodeCamp Backend Development and API",
-  },
-  {
-    name: "CompTIA Security +",
-    url: "https://www.credly.com/badges/9b5a1952-6fb8-4ee3-921e-90946dad898c/public_url",
-    description:
-      "CompTIA Security+ is a global certification that validates the baseline skills necessary to perform core security functions and pursue an IT security career.",
-    publisher: "CompTIA",
-    certificateDetails: "https://www.comptia.org/certifications/security",
-    imgSrc: "./CompTIA Security+ certificate.jpg",
-    alt: "CompTIA Security+",
   },
 ];
