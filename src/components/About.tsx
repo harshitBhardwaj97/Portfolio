@@ -69,7 +69,7 @@ const About = () => {
               🌍 I'm based in India.
             </h2>
             <h2 className="pb-2 font-bold md:text-xl">
-              🧠 Currently I'm learning MERN Stack, Rust.
+              🧠 Currently I'm learning DevOps, Go.
             </h2>
             <h2 className="font-bold md:text-xl">
               👨🏽‍💻 Checkout my work at{" "}

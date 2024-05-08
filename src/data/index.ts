@@ -19,6 +19,22 @@ export const techStack: technology[] = [
     alt: "Java",
   },
   {
+    aHref: "https://www.python.org/",
+    imgSrc:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg",
+    width: "36",
+    height: "36",
+    alt: "Python",
+  },
+  {
+    aHref: "https://go.dev/",
+    imgSrc:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/go-colored.svg",
+    width: "36",
+    height: "36",
+    alt: "Golang",
+  },
+  {
     aHref: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     imgSrc:
       "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg",
@@ -138,10 +154,39 @@ export const techStack: technology[] = [
     height: "36",
     alt: "Linux",
   },
+  {
+    aHref: "https://aws.amazon.com/",
+    imgSrc:
+      "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aws-colored-dark.svg",
+    width: "36",
+    height: "36",
+    alt: "AWS",
+  },
 ];
 
 // Certifications Data
 export const certifications: certificate[] = [
+  {
+    name: "LambdaTest Selenium Java",
+    url: "https://www.lambdatest.com/certified/SJA-64M67G",
+    description:
+      "This certification demonstrates the knowledge of Selenium and Java, and the expertise at automating tests for any project.",
+    publisher: "LambdaTest",
+    certificateDetails:
+      "https://www.lambdatest.com/certifications/selenium-java-101",
+    imgSrc: "./LambdaTest Selenium Java.png",
+    alt: "LambdaTest Selenium Java",
+  },
+  {
+    name: "LambdaTest TestNG",
+    url: "https://www.lambdatest.com/certified/TNG-I374BV",
+    description:
+      "With TestNG certification, we can challenge our skills in performing automated testing with TestNG and take our career to the next level.",
+    publisher: "LambdaTest",
+    certificateDetails: "https://www.lambdatest.com/certifications/testng",
+    imgSrc: "./LambdaTest TestNG.png",
+    alt: "LambdaTest TestNG",
+  },
   {
     name: "Full Stack Open",
     url: "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/304461dafbcc0e0685b0145b9a72bcd9",
