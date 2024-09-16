@@ -167,6 +167,28 @@ export const techStack: technology[] = [
 // Certifications Data
 export const certifications: certificate[] = [
   {
+    name: "Google Cloud Fundamentals: Core Infrastructure",
+    url: "https://www.cloudskillsboost.google/public_profiles/97f95b00-0fd3-4fa1-b7f7-6acc1c7ffbc3/badges/11312556?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+    description:
+      "The Google Cloud Fundamentals: Core Infrastructure certification provides an introduction to essential concepts and terminology for working with Google Cloud. It also covers critical tools for resource and policy management, equipping you with a foundational understanding of Google Cloud’s core infrastructure.",
+    publisher: "Google Cloud",
+    certificateDetails:
+      "https://www.cloudskillsboost.google/course_templates/60",
+    imgSrc: "./GCP Core Infrastructure.jpeg",
+    alt: "GCP Core Infrastructure",
+  },
+  {
+    name: "Gradle Build Caching",
+    url: "https://dpeuniversity.gradle.com/app/certificate/82b00106-0f42-427b-80e6-05623c4b6b01",
+    description:
+      "The Gradle Build Caching certification focuses on leveraging Gradle’s build caching feature to enhance build performance. By mastering build caching, you can significantly boost the efficiency of your builds and optimize your development workflow.",
+    publisher: "DPE University",
+    certificateDetails:
+      "https://dpeuniversity.gradle.com/app/learning_paths/b82f8dd7-d61e-450f-820e-3e719ef70bee",
+    imgSrc: "./Gradle Build Caching.png",
+    alt: "Gradle Build Caching",
+  },
+  {
     name: "LambdaTest Selenium Java",
     url: "https://www.lambdatest.com/certified/SJA-64M67G",
     description:
